@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Unzip the file
-      run: unzip Game.ZIP -d extracted/
+      run: unzip TapGames-master.zip -d extracted/
