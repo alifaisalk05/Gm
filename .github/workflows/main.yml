@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Unzip the file
-      run: unzip game -d extracted/
+      run: unzip Game.zip -d extracted/
