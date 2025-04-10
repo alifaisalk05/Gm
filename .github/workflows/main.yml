@@ -1,0 +1,12 @@
+# .github/workflows/unzip.yml
+name: Unzip File
+
+on: [push]
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Unzip the file
+      run: unzip game.zip -d extracted/
